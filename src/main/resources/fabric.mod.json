@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mathmc",
+  "version": "${version}",
+  "name": "MathMC",
+  "description": "Arithmetic training mod POC: numbered logs and math-crafted tools.",
+  "authors": ["OpenAI"],
+  "contact": {
+    "homepage": "https://example.com"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mathmc.MathMcMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
